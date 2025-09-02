@@ -5,7 +5,7 @@
 }
 
 <div style="text-align: center;" >
-    <h1>Welcome to @Configuration.GetSection( "AppSettings" )["CompanyName"] Helpdesk portal</h1>
+    <h1>Welcome to the YT-1300 Customer Support portal</h1>
     @if (null != ViewData["displayName"]) {
         <h3>Welcome @ViewData["displayName"]</h3>
     }
@@ -43,7 +43,6 @@
             <br>
             <!-- to make it obvious that this is a demo site -->
             <p class="marquee">
-                This is a demo site. You will not be contacted by a support personnel.
             </p>
         </div>
     </div>
@@ -121,7 +120,7 @@
                         console.log(response);
                         respMsg = JSON.parse(response);
                         if (respMsg.status == 'user_authenticated') {
-                            document.getElementById('message').innerHTML = "Verification successful. Support would be on its way if this was a real helpdesk site.";
+                            document.getElementById('message').innerHTML = "Verification of your intergalactic ID successful. Move along.";
                             document.getElementById('userUpn').innerHTML = respMsg.email;
                             document.getElementById('userName').innerHTML = respMsg.displayName;
                             document.getElementById('faceScore').innerHTML = respMsg.matchConfidenceScore + "%";
