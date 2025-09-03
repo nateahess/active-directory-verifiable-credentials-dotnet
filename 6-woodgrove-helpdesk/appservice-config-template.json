@@ -6,12 +6,12 @@
   },
   {
     "name": "AppSettings__CompanyLogo",
-    "value": "https://woodgroveemployee.azurewebsites.net/assets/images/banking/logo/logo.png",
+    "value": "https://ytsupport.azurewebsites.net/assets/images/banking/logo/logo.png",
     "slotSetting": false
   },
   {
     "name": "AppSettings__CompanyName",
-    "value": "Woodgrove",
+    "value": "YT-1300",
     "slotSetting": false
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "name": "VerifiedID__client_name",
-    "value": "Woodgrove Helpdesk",
+    "value": "YT-1300",
     "slotSetting": false
   },
   {
