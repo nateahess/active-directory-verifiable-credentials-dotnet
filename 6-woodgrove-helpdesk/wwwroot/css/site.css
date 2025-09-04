@@ -23,7 +23,7 @@ body {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*background-color: white;*/
-    background-color: #dbeadd;
+    background-color: #333333;
 }
 
 #wrap {
@@ -116,7 +116,7 @@ a:hover {
 }
 
 .green {
-    color: #228B22;
+    color: #333333;
 }
 
 .bg-black {
@@ -132,7 +132,7 @@ a:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/banner_image01.png);
     background-position: center top;
     background-size: cover;
-    height: 85px;
+    height: 100px;
 }
 
 .monospacedText {
